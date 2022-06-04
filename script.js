@@ -5,7 +5,7 @@ console.log(btns[0].classList.add('red', 'brown'));
 console.log(btns[0].classList.remove('blue'));
 console.log(btns[0].classList.toggle('blue'));
 
-console.log(btns[1].classList.add('red', 'brown'));
+console.log(btns[1].classList.add('red'));
 if (btns[1].classList.contains('red')) {
     console.log('red');
 } else {
