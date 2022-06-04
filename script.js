@@ -26,5 +26,5 @@ const btns = document.querySelectorAll('button'),
 // console.log(btns[0].className);
 
 wrapper.addEventListener('click', (event) => {
-    console.log(event.target);
+    console.dir(event.target);
 });
