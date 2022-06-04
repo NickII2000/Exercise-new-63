@@ -27,7 +27,8 @@ btns[0].addEventListener('click', () => {
 
 wrapper.addEventListener('click', (event) => {
     // console.dir(event.target);
-    if (event.target && event.target.tagName == 'BUTTON') {
+    // if (event.target && event.target.tagName == 'BUTTON') {
+    if (event.target && event.target.matches('button.red')) {
         console.log('Hello');
     }
 });
