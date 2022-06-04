@@ -25,18 +25,18 @@ btns[0].addEventListener('click', () => {
 
 // console.log(btns[0].className);
 
-// wrapper.addEventListener('click', (event) => {
-//     // console.dir(event.target);
-//     if (event.target && event.target.tagName == 'BUTTON') {
-//         console.log('Hello');
-//     }
-// });
-
-btns.forEach((btn) => {
-    btn.addEventListener('click', () => {
+wrapper.addEventListener('click', (event) => {
+    // console.dir(event.target);
+    if (event.target && event.target.tagName == 'BUTTON') {
         console.log('Hello');
-    });
+    }
 });
+
+// btns.forEach((btn) => {
+//     btn.addEventListener('click', () => {
+//         console.log('Hello');
+//     });
+// });
 
 const btn = document.createElement('button');
 btn.classList.add('red');
