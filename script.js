@@ -1,4 +1,6 @@
-const btns = document.querySelectorAll('button');
+const btns = document.querySelectorAll('button'),
+    wrapper = document.querySelector('.btn-block');
+
 // console.log(btns[0].classList.length);
 // console.log(btns[0].classList.item(0));
 // console.log(btns[0].classList.add('red', 'brown'));
@@ -20,3 +22,5 @@ btns[0].addEventListener('click', () => {
     // }
     btns[1].classList.toggle('red');
 });
+
+// console.log(btns[0].className);
