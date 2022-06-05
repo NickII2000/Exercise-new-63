@@ -33,11 +33,11 @@ wrapper.addEventListener('click', (event) => {
     }
 });
 
-// btns.forEach((btn) => {
-//     btn.addEventListener('click', () => {
-//         console.log('Hello');
-//     });
-// });
+btns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        console.log('Hello');
+    });
+});
 
 const btn = document.createElement('button');
 btn.classList.add('red');
